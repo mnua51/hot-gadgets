@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    color:#8D8D8D;
+    font-weight: 300;
+}
+img{
+    max-width: 100%;
+}
+.container {
+	margin-bottom: 100px;
+}
+
+.menu{
+    margin-bottom: 0px;
+}
+.buy-now-button {
+	background: black;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.carousel-indicators {
+    bottom: -45px;
+}
+.carousel-indicators li {
+	background: #CECECE;
+    border-radius: 10px;
+    border: none;
+    height: 10px;
+    width: 15px;
+}
+.carousel-indicators .active {
+	background-image:linear-gradient(180deg,#FFB02A,#FFD019);
+    border-radius: 10px;
+    width: 35px;
+    
+}
+.cat_title, .title h3 {
+	margin-bottom: 30px;
+}
+a.see_link{
+    color: #FFB02A;
+    font-weight: 600;
+    text-decoration: none;
+}
+a.see_link:hover{
+    color: #FFB02A;
+}
+.card {
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px lightgray;
+}
+.card img {
+	margin: 10px auto;
+}
+.border-line{
+    background-image:linear-gradient(180deg,#FFB02A,#FFD019);
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.cat img {
+	background: white;
+	box-shadow: 5px 5px 10px lightgray;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+}
+#subscribe {
+	height: 300px;
+}
+.orange-bg {
+	background:#F7EDE1;
+	border-radius: 10px;
+}
+footer {
+	text-align: center;
+}
